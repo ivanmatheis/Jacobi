@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Jacobi
     Dim i, c, redon, j As Integer
 
     Private Sub Salir_Click(sender As Object, e As EventArgs) Handles Salir.Click
@@ -6,6 +6,10 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Limpiar_Click(sender As Object, e As EventArgs) Handles Limpiar.Click
 
     End Sub
 

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Jacobi
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -75,7 +75,7 @@ Partial Class Form1
         Me.Salida.Location = New System.Drawing.Point(27, 221)
         Me.Salida.Name = "Salida"
         Me.Salida.RowHeadersWidth = 62
-        Me.Salida.Size = New System.Drawing.Size(1071, 193)
+        Me.Salida.Size = New System.Drawing.Size(1096, 193)
         Me.Salida.TabIndex = 9
         '
         'Column1
@@ -464,12 +464,12 @@ Partial Class Form1
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
         Me.TextBox3.TabIndex = 50
         '
-        'Form1
+        'Jacobi
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
-        Me.ClientSize = New System.Drawing.Size(1110, 433)
+        Me.ClientSize = New System.Drawing.Size(1135, 433)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -506,8 +506,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Inicio)
         Me.Controls.Add(Me.Salida)
         Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Name = "Jacobi"
+        Me.Text = "Jacobi"
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
